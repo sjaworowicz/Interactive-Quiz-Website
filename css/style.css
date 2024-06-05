@@ -45,7 +45,7 @@ h1 {
     transform: translate(-50%, -50%) scale(0);
     transition: all 0.2s ease-in-out;
   }
-  
+
   .radio-button input[type="radio"]:checked + .radio-circle::before {
     transform: translate(-50%, -50%) scale(1);
   }
@@ -129,4 +129,12 @@ h1 {
   
   .button:active {
     transform: scale(0.97);
+  }
+
+  .correct{
+    background: #00FF00;
+  }
+
+  .incorrect{
+    background: #FF0000;
   }
