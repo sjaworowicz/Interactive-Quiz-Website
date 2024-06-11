@@ -166,6 +166,7 @@ function handleNextButton(){
 };
 
 nextButton.addEventListener("click",()=>{
+    console.log("click");
     if(currentQuestionIndex < questions.length){
         handleNextButton();
     }else{
